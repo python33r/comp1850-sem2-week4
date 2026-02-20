@@ -1,8 +1,8 @@
 
 #include <stdio.h>
+#include <string.h>
 
 int main( void ) {
-
     char charArray[5] = {'h','e','l','l','o'};
     char charString[] = "hello";
  
@@ -11,6 +11,7 @@ int main( void ) {
 
     printf("As string: %s\n",charString);   // normal behaviour
     printf("Length of string: %ld\n",sizeof(charString));   // includes silent character \O
+    printf("Real length of string: %ld\n", strlen(charString));
 
     return 0;
 }

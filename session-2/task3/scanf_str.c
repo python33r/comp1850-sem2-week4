@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int main( void ) {
+int main(void) {
     char input[10];
 
     int count = scanf("%s",input);
